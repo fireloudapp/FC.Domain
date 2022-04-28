@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Common.Domain", "FC.Common.Domain\FC.Common.Domain.csproj", "{3DD189C4-A785-4A0C-95B6-D3F3C0D6E2F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Common.DataAccess", "FC.Common.DataAccess\FC.Common.DataAccess.csproj", "{06DFF009-190C-4A9D-B890-EE08B73B1EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDataAccess", "MongoDataAccess", "{A6B35E5D-FAC3-435D-B5C0-302DF44CB05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Extension.SQL.Mongo", "FC.Extension.SQL.Mongo\FC.Extension.SQL.Mongo.csproj", "{48F3054A-E27E-42F6-A78B-C374380516B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InventoryService", "InventoryService", "{5E5D68D2-BDAD-4F34-8815-BBB671B7F477}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Education", "Education", "{3565F897-27F0-4833-9C33-7A2818314F5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DD189C4-A785-4A0C-95B6-D3F3C0D6E2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD189C4-A785-4A0C-95B6-D3F3C0D6E2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD189C4-A785-4A0C-95B6-D3F3C0D6E2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD189C4-A785-4A0C-95B6-D3F3C0D6E2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DFF009-190C-4A9D-B890-EE08B73B1EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DFF009-190C-4A9D-B890-EE08B73B1EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DFF009-190C-4A9D-B890-EE08B73B1EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DFF009-190C-4A9D-B890-EE08B73B1EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F3054A-E27E-42F6-A78B-C374380516B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F3054A-E27E-42F6-A78B-C374380516B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F3054A-E27E-42F6-A78B-C374380516B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F3054A-E27E-42F6-A78B-C374380516B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48F3054A-E27E-42F6-A78B-C374380516B9} = {A6B35E5D-FAC3-435D-B5C0-302DF44CB05A}
+	EndGlobalSection
+EndGlobal
