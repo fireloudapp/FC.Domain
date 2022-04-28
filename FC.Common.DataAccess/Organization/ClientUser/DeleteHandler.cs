@@ -2,9 +2,9 @@
 using System.Linq;
 using FC.Edu.Domain;
 using FC.Extension.SQL.Engine;
-using FC.Extension.SQL.Helper;
-using FC.Extension.SQL.Interface;
 using FC.Extension.SQL.Mongo;
+using FC.Extension.SQL.Mongo.Helper;
+using FC.Extension.SQL.Mongo.Interface;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 

@@ -6,6 +6,8 @@
         <Nullable>enable</Nullable>
         <AssemblyName>FC.Common.Domain</AssemblyName>
         <RootNamespace>FC.Common.Domain</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>FC.Common.Domain</Title>
     </PropertyGroup>
 
     <ItemGroup>

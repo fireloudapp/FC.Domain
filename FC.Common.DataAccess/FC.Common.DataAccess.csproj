@@ -9,12 +9,11 @@
 
     <ItemGroup>
       <ProjectReference Include="..\FC.Common.Domain\FC.Common.Domain.csproj" />
+      <ProjectReference Include="..\FC.Extension.SQL.Mongo\FC.Extension.SQL.Mongo.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
-      <PackageReference Include="FC.Extension.SQL" Version="2.1.3.2" />
-      <PackageReference Include="MongoDB.Driver" Version="2.15.0" />
     </ItemGroup>
 
 </Project>

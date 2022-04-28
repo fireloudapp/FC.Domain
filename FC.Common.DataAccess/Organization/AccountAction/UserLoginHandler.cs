@@ -2,12 +2,12 @@
 using System.Linq;
 using FC.Edu.Domain;
 using FC.Edu.Domain.Helper;
-using FC.Extension.SQL.Helper;
-using FC.Extension.SQL.Interface;
 using FC.Extension.SQL.Mongo;
 using MongoDB.Driver;
 using BCrypt.Net;
 using FC.Edu.DataAccess.Utility;
+using FC.Extension.SQL.Mongo.Helper;
+using FC.Extension.SQL.Mongo.Interface;
 using MongoDB.Bson;
 using MongoDB.Driver.Linq;
 
