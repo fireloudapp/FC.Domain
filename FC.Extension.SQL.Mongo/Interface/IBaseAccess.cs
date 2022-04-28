@@ -1,8 +1,8 @@
 ﻿using System.Linq.Expressions;
 
-namespace FC.Extension.SQL.Mongo.Interface;
-
-public interface IBaseAccess<TModel> where TModel : class
+namespace FC.Extension.SQL.Mongo.Interface
+{
+    public interface IBaseAccess<TModel> where TModel : class
     {
         #region Basic CRUD
 
@@ -25,14 +25,15 @@ public interface IBaseAccess<TModel> where TModel : class
         #endregion
 
         #region Condition Executions
+
         public IEnumerable<TModel> GetByCondition(Expression condition);
         public Task<IEnumerable<TModel>> GetByConditionAsync(Expression condition);
 
         #endregion
 
-        
 
-       
+
+
 
         #region Basic Scalar Methods
 
@@ -52,5 +53,6 @@ public interface IBaseAccess<TModel> where TModel : class
 
 
         #endregion
-        
+
     }
+}

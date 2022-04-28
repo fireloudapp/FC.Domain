@@ -1,4 +1,4 @@
-﻿namespace FC.Edu.Domain.Helper;
+﻿namespace FC.Common.Domain.Helper;
 
 public class AppSettings
 {

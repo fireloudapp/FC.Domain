@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace FC.Edu.Domain;
+namespace FC.Common.Domain;
 
 public class User
 {

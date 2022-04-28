@@ -1,4 +1,4 @@
-﻿namespace FC.Edu.Domain.Location;
+﻿namespace FC.Common.Domain.Location;
 
 public class State
 {
