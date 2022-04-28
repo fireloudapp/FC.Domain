@@ -1,10 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using FC.Edu.Domain;
-using FC.Edu.Domain.Helper;
 using FC.Extension.SQL.Mongo;
 using MongoDB.Driver;
 using BCrypt.Net;
+using FC.Common.Domain;
 using FC.Edu.DataAccess.Utility;
 using FC.Extension.SQL.Mongo.Helper;
 using FC.Extension.SQL.Mongo.Interface;

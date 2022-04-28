@@ -1,24 +1,23 @@
-﻿namespace FC.Common.Domain.Helper;
-
-public class MongoSettings
+﻿namespace FC.Common.Domain.Helper
 {
-    /// <summary>
-    /// Server or Cluster name of MongoDB
-    /// </summary>
-    public string? Server { get; set; }
-    /// <summary>
-    /// Database Name of MongoDB
-    /// </summary>
-    public string? DataBaseName { get; set; }
-
-    /// <summary>
-    /// Full connection string this has to be used.
-    /// </summary>
-    public string Connection
+    public class MongoSettings
     {
-        get
+        /// <summary>
+        /// Server or Cluster name of MongoDB
+        /// </summary>
+        public string? Server { get; set; }
+
+        /// <summary>
+        /// Database Name of MongoDB
+        /// </summary>
+        public string? DataBaseName { get; set; }
+
+        /// <summary>
+        /// Full connection string this has to be used.
+        /// </summary>
+        public string Connection
         {
-            return string.Format(Server, DataBaseName);
+            get { return string.Format(Server, DataBaseName); }
         }
     }
 }

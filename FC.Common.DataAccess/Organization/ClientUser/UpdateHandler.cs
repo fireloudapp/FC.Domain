@@ -1,13 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using FC.Edu.Domain;
+using FC.Common.Domain;
 using FC.Extension.SQL.Engine;
 using FC.Extension.SQL.Mongo;
 using FC.Extension.SQL.Mongo.Helper;
 using FC.Extension.SQL.Mongo.Interface;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
-
 
 namespace FC.Edu.DataAccess.Organization.ClientUser;
 

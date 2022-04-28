@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using FC.Edu.Domain;
+using FC.Common.Domain;
 using FC.Extension.SQL.Engine;
 using FC.Extension.SQL.Mongo;
 using FC.Extension.SQL.Mongo.Helper;
