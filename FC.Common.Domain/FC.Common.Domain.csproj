@@ -8,7 +8,7 @@
         <RootNamespace>FC.Common.Domain</RootNamespace>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>FC.Common.Domain</Title>
-        <LangVersion>latest</LangVersion>
+        <LangVersion>10</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>

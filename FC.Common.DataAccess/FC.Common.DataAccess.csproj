@@ -7,15 +7,22 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <LangVersion>latest</LangVersion>
+        <IsPublishable>True</IsPublishable>
+		
     </PropertyGroup>
-
+	    
+	
     <ItemGroup>
       <ProjectReference Include="..\FC.Common.Domain\FC.Common.Domain.csproj" />
       <ProjectReference Include="..\FC.Extension.SQL.Mongo\FC.Extension.SQL.Mongo.csproj" />
+		
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     </ItemGroup>
+	
+	
+	
 
 </Project>

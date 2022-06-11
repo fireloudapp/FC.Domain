@@ -31,10 +31,6 @@ namespace FC.Extension.SQL.Mongo.Interface
 
         #endregion
 
-
-
-
-
         #region Basic Scalar Methods
 
         public long GetRecordCount();

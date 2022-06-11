@@ -45,6 +45,8 @@ namespace FC.Common.Domain
         [Required]
         public string? ClientConnectionString { get; set; }
 
+        #region Can be made in future
+
         //public string Client_Server { get; set; }
         // [StringLength(15, ErrorMessage = "Phone length can't be more than 15.")]
         // public string Phone { get; set; }
@@ -54,7 +56,6 @@ namespace FC.Common.Domain
         //public string Description { get; set; }
         //public string BusinessCategory { get; set; }
         //public int AddressId { get; set; } // Moved to Address Table
-
         //public string Logo { get; set; }
         // [Required]
         // public int ActivateNoOfDays { get; set; }
@@ -66,7 +67,33 @@ namespace FC.Common.Domain
         //     get;
         //     set;
         // } = DateTime.Now;
-        //public SubscriptionModel SubscriptionModel { get; set; }
+        
+        #endregion
+        
+        /// <summary>
+        /// Subscription Plan
+        /// </summary>
+        public SubscriptionPlan Subscription { get; set; }
+
+        
+
+    }
+    
+    /// <summary>
+    /// Customer Subscribed Service
+    /// </summary>
+    public class SubscriptionPlan
+    {
+        public string PlanName { get; set; } = "Pay-as-you-use";
+        public IList<SubscribedService> Services { get; set; }
+    }
+
+    public class SubscribedService
+    {
+        public string ServiceName { get; set; } = string.Empty;
+        public long QuantityLimit { get; set; } = long.MaxValue;
+        public double CostPerQuantity { get; set; } = 0.0d;
+        public string CostSuffix { get; set; } = "data";
 
     }
 
@@ -93,13 +120,4 @@ namespace FC.Common.Domain
         public string Text { get; set; }
     }
 
-    /// <summary>
-    /// 
-    /// </summary>
-    public class SubscriptionModel
-    {
-        public int ID { get; set; }
-        public string Text { get; set; }
-        public int ActivatedDays { get; set; }
-    }
 }

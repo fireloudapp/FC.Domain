@@ -106,6 +106,13 @@ public class UserLoginHandler : MongoDataAccess<User>, ICommand<User>
     }
 
     #endregion
+
+    #region IError Handler
+
+    public bool IsError { get; set; }
+    public string ErrorMessage { get; set; }
+
+    #endregion
     
 }
 
